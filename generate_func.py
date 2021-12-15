@@ -1,2 +1,2 @@
 def generate_field():
-    pass
+    print("I try my best")
