@@ -1,13 +1,20 @@
-def generate_field():
-    print("I try my best")
-def build_board(dims):
-    return [['O' for count in range(dims)] for count in range(dims)]
-def print_board(board):
-    for b in board:
-        print(*b)
+
+def build_board(lines):
+    board = [['0' for count in range(lines)] for count in range(lines)]
+    return board
+
+# Ми пробували, але ми весь час вбили на те, щоби хоча б якось розібратися з гітом
+
+def print_board(desk):
+    for figure in desk:
+        print(figure)
+
+# В Каті так і не вдалося :(
+
 def main():
-    board = build_board(5)
+    board = build_board(10)
     print_board(board)
     print('did something')
     return
 main()
+
