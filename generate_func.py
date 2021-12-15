@@ -1,2 +1,4 @@
-def generate_field():
-    print("I try my best")
+def build_board(lines):
+    board = [['0' for count in range(lines)] for count in range(lines)]
+    return board
+
