@@ -3,3 +3,9 @@ def build_board(lines):
     return board
 
 # Ми пробували, але ми весь час вбили на те, щоби хоча б якось розібратися з гітом
+
+def print_board(desk):
+    for figure in desk:
+        print(figure)
+
+# В Каті так і не вдалося :(
